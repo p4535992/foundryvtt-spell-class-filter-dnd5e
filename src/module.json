@@ -3,35 +3,85 @@
     "title": "Multiclass Spellbook Filter",
     "description": "Adds options to organize spells by class. Useful for multiclass characters.",
     "version": "10.0.0",
-    "authors": [{"name":"MrEnigmamgine"}],
-    "compatibility": {
-        "minimum": 10,
-        "verified": 10,
-        "maximum": 10
-    },
-    "relationships": {
-        "systems": [
-            {
-                "id": "dnd5e",
-                "type": "system",
-                "compatibility": {
-                    "minimum": "2.0.1",
-                    "compatible": "2.0.3"
-                }
-            }
-        ]
-    },
+	"authors": [
+		{
+			"name":"MrEnigmamgine"
+		},
+		{
+			"name": "p4535992",
+			"url": "https://github.com/p4535992",
+			"discord": "",
+			"twitter": "",
+			"patreon": "",
+			"github": "p4535992",
+			"ko-fi": "",
+			"reddit": "",
+			"email": ""
+		}
+	],
+	"type": "module",
+	"socket": true,
+	"includes": [
+		"./assets/**",
+		"./lang/**",
+		"./languages/**",
+		"./scripts/**",
+		"./styles/**",
+		"./templates/**",
+		"./module.json",
+		"./README.md",
+		"./icons/**",
+		"./packs/**"
+	],
+	"media": [
+		{
+			"type": "icon",
+			"location": ""
+		},
+		{
+			"type": "cover",
+			"location": ""
+		},
+		{
+			"type": "screenshot",
+			"location": ""
+		}
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "languages/en.json"
+		}
+	],
+	"packs": [],
+	"systems": [],
+	"scripts": [],
     "esmodules": [
         "./scf.js"
     ],
-    "languages": [
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "lang/en.json"
-        }
-    ],
-    "url":      "https://github.com/thatlonelybugbear/spell-class-filter-for-5e",
-    "manifest": "https://github.com/thatlonelybugbear/spell-class-filter-for-5e/releases/download/10.0.0/module.json",
-    "download": "https://github.com/thatlonelybugbear/spell-class-filter-for-5e/releases/download/10.0.0/module.zip"
+	"styles": [],
+	"compatibility": {
+		"minimum": 10,
+		"verified": 10,
+		"maximum": 10
+	},
+	"manifestPlusVersion": "1.2.1",
+	"url": "https://github.com/p4535992/foundryvtt-spell-class-filter-dnd5e",
+	"manifest": "https://github.com/p4535992/foundryvtt-spell-class-filter-dnd5e/releases/latest/download/module.json",
+	"download": "https://github.com/p4535992/foundryvtt-spell-class-filter-dnd5e/releases/latest/download/module.zip",
+	"readme": "https://github.com/p4535992/foundryvtt-spell-class-filter-dnd5e/blob/v0.4.12/README.md",
+	"changelog": "https://github.com/p4535992/foundryvtt-spell-class-filter-dnd5e/blob/v0.4.12/CHANGELOG.md",
+	"bugs": "https://github.com/p4535992/foundryvtt-spell-class-filter-dnd5e/issues",
+	"allowBugReporter": true,
+	"relationships": {
+		"systems": [
+			{
+                "id": "dnd5e",
+                "type": "system"
+            }
+		],
+		"requires": [],
+		"conflicts": []
+	}
 }
