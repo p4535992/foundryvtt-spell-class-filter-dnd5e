@@ -1,32 +1,32 @@
 {
-    "SPELLCLASSFILTER" : {
-        "Class" : "Class",
-        "Custom": "Custom",
-        "SpellClass": "Spell Class",
-        "Spellbook" : "Spellbook",
+	"spell-class-filter-for-5e.Class": "Class",
+	"spell-class-filter-for-5e.SpellClass": "Spell Class",
+	"spell-class-filter-for-5e.Spellbook": "Spellbook",
 
-
-        "ClassArtificer" : "Artificer",
-        "ClassBarbarian" : "Barbarian",
-        "ClassBard"      : "Bard",
-        "ClassCleric"    : "Cleric",
-        "ClassDruid"     : "Druid",  
-        "ClassFighter"   : "Fighter",
-        "ClassMonk"      : "Monk",
-        "ClassPaladin"   : "Paladin",
-        "ClassRanger"    : "Ranger",
-        "ClassRogue"     : "Rogue",
-        "ClassSorcerer"  : "Sorcerer",
-        "ClassWarlock"   : "Warlock",
-        "ClassWizard"    : "Wizard",
-
-        "setting_filterSelect"  : {
-            "name"      : "Client Setting: Enable filter selector on Actor.",
-            "hint"      : "If you don't need this for your character, disabling this option will allow you to reclaim the space and declutter your sheet."
-        },
-        "setting_iconReplace"   : {
-            "name"      : "Client Setting: Cover spell icon with class icon.",
-            "hint"      : "Enabling this will change the spellbook tab to display the icon for the spell's class instead of the spell's image. Useful for managing multiple lists without having to switch between them."
-        }
-    }
+	"spell-class-filter-for-5e.ClassArtificer": "Artificer",
+	"spell-class-filter-for-5e.ClassBarbarian": "Barbarian",
+	"spell-class-filter-for-5e.ClassBard": "Bard",
+	"spell-class-filter-for-5e.ClassCleric": "Cleric",
+	"spell-class-filter-for-5e.ClassCustom": "Custom",
+	"spell-class-filter-for-5e.ClassDruid": "Druid",
+	"spell-class-filter-for-5e.ClassFighter": "Fighter",
+	"spell-class-filter-for-5e.ClassMonk": "Monk",
+	"spell-class-filter-for-5e.ClassPaladin": "Paladin",
+	"spell-class-filter-for-5e.ClassRanger": "Ranger",
+	"spell-class-filter-for-5e.ClassRogue": "Rogue",
+	"spell-class-filter-for-5e.ClassSorcerer": "Sorcerer",
+	"spell-class-filter-for-5e.ClassWarlock": "Warlock",
+	"spell-class-filter-for-5e.ClassWizard": "Wizard",
+	"spell-class-filter-for-5e.settings.SpellClassFilterSelect": {
+		"name": "Enable Multiclass Spellbook filter",
+		"hint": "If you don't need this for your character, disabling this option will allow you to reclaim the space and declutter your sheet."
+	},
+	"spell-class-filter-for-5e.settings.SpellClassFilterIconReplace": {
+		"name": "Cover spell icon with class icon",
+		"hint": "Enabling this will change the spellbook tab to display the icon for the spell's class instead of the spell's image. Useful for managing multiple lists without having to switch between them."
+	},
+	"spell-class-filter-for-5e.settings.spellClassFilterAdditionalClasses": {
+		"name": "Add additional classes for 'Multiclass Spellbook filter'",
+		"hint": "Add additional homebrewed classes to the dropdown with this syntax 'id1|name1,id2|name2' e.g. 'occultist|Occultist,alchemist|Alchemist'"
+	}
 }
